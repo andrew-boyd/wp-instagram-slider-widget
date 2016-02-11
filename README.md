@@ -19,3 +19,6 @@ $image_data['url'] = $parsed_image_data['scheme'] . '://' . $parsed_image_data['
 Download this repo as a zip and install as a normal plugin. **Before you activate this plugin you must deactivate the original or you will likely encounter errors about attempting to re-define existing classes, etc.**
 
 Keep the original plugin installed (but deactivated) in order to be alerted when there is an official fix from the plugin author.
+
+#Disclaimer
+These few lines of code were written and tested on a "well, that works for me!" basis. I take no responsibility if you run into issues while using this freely provided code. While its usage should be straightforward and safe, I can't possibly know all the variables that make your site yours, so install and use at your own risk.
