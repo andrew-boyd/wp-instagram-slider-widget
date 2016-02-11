@@ -13,3 +13,9 @@ $parsed_image_data = parse_url($image_data['url']);
 $image_data['url'] = $parsed_image_data['scheme'] . '://' . $parsed_image_data['host'] . $parsed_image_data['path'];
 // end temp fix;
 ```
+
+
+#Installation Instructions
+Download this repo as a zip and install as a normal plugin. **Before you activate this plugin you must deactivate the original or you will likely encounter errors about attempting to re-define existing classes, etc.**
+
+Keep the original plugin installed (but deactivated) in order to be alerted when there is an official fix from the plugin author.
