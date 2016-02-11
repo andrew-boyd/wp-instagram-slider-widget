@@ -1,5 +1,7 @@
 # Patched instagram-slider-widget
-Temporary patched repo for Instagram slider widget that broke due to Instagram changes. Not my original work, just a quick fix I thought others may find helpful.
+Temporary patched repo for Instagram slider widget that broke due to Instagram changes. Not my original work, just a quick fix I thought others may find helpful. Made in response to this thread:
+
+https://wordpress.org/support/topic/slider-went-blank?replies=14
 
 Instagram has silently added a cache parameter to the end if their image urls that breaks the scraping approach used by this plugin. This fix works by simply inserting a step to trim the cache parameter off of the end of the image url before attempting to detect if the provided url is a supported image type.
 
