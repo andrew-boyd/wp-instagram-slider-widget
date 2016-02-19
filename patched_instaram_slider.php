@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Patched - Instagram Slider Widget
+Plugin Name: Instagram Slider Widget - Patched
 Plugin URI: http://jrwebstudio.com/instagram-slider/
 Version: 1.3.1
 Description: Patched version of Instagram Slider Widget for use until official solution is provided by the plugin author.
